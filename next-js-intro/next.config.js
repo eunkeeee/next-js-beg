@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
 };
-const API_KEY = "4aef0f9cd61166075a049aaa9680cab1";
+const API_KEY = process.env.API_KEY;
 
 module.exports = {
   reactStrictMode: true,
